@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "simons-special"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-13"
+    "humanitec.com/appId": "simons-special"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
